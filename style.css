@@ -1,0 +1,81 @@
+h1{
+	color: #ff4455;
+	font-family:monospace;
+	text-align: center;
+}
+fieldset {
+	border: 1px solid #d827b2;
+	display: inline-block;
+	font-size: 14px;
+	padding: 1em 2em;
+}
+fieldset label {
+	font-family: arial;
+	color: aqua;
+}
+legend {
+	background: #d16106;     
+	color: #ffffff;          
+	margin-bottom: 10px;
+	padding: 0.5em 1em;
+}
+label {
+	color: #16af98;
+	display: block;
+	font-size: 18px;
+}
+input[type="text"]:focus {
+	border-bottom: 1px solid #BFD48C;     
+	outline: none;
+}
+body{
+	background: url('11824.jpg') no-repeat fixed 0 0 
+	#000;
+	color: #fff;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+.body { 
+	font-family:monospace;
+	font-size:16px;
+	background : #33ffdd;
+}
+.addr {
+	width:30px;
+}
+.result {
+	text-align: left;
+	color: white;
+	width: 60%;
+	border-top: 1px solid #6a6ade;
+	border-left: 1px solid #6a6ade;
+	border-bottom: 1px solid #6a6ade;
+	border-right: 1px solid #6a6ade;
+}
+.result .label {
+	display:inline-grid;
+	width:200px;
+}
+.tombol{
+  background:#2C97DF;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:5px solid #2A80B9;
+  padding:10px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+ button:hover, button:focus {
+  background: cyan;
+  outline: 0;
+ }
+h5{
+	text-align: center;
+	color: cyan;
+	font-family: arial;
+	font-size: 14px;
+}
